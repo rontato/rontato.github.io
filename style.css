@@ -1,10 +1,70 @@
-body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    margin: 20px;
+.container {
+    max-width: 500px; /* Matches main text box width */
+    margin: 0 auto; /* Centers content */
+    padding: 20px;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
+body {
+    font-family: 'Inter', sans-serif;
+    text-align: left;
+    margin: 40px;
+    color: black;
+    background-color: white;
+}
+
+nav {
+    max-width: 500px; /* Ensures nav is the same width as text */
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Center items vertically */
+    font-weight: 500;
+}
+
+.nav-tab a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: gray;
+    font-size: 16px;
+}
+
+.nav-tab a:hover {
+    color: black;
+}
+
+.nav-tab a.active {
+    color: black;
+    font-weight: bold;
+}
+
+.profile-picture img {
+    width: 60px; /* Increase size */
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center; /* Adjust cropping */
+    border: 3px solid black; /* Adds a black border */
+}
+
+main {
+    max-width: 500px;
+    margin: 40px auto;
+    line-height: 1.6;
+}
+
+footer {
+    max-width: 500px; /* Align with text box */
+    margin: 40px auto; /* Center it */
+    display: flex;
+    justify-content: flex-start; /* Align icons to the left */
+}
+
+footer a {
+    margin-right: 20px;
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+}
+
+footer a:hover {
+    opacity: 0.7;
 }
