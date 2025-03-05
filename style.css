@@ -37,12 +37,12 @@ nav {
 }
 
 .profile-picture img {
-    width: 60px; /* Increase size */
-    height: 60px;
+    width: 50px; /* Increase size */
+    height: 50px;
     border-radius: 50%;
     object-fit: cover;
     object-position: center; /* Adjust cropping */
-    border: 3px solid black; /* Adds a black border */
+    /* border: 3px solid black; Adds a black border */
 }
 
 main {
