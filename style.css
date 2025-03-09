@@ -1,15 +1,15 @@
 .container {
-    max-width: 500px; /* Matches main text box width */
+    max-width: 600px; /* Matches main text box width */
     margin: 0 auto; /* Centers content */
     padding: 20px;
 }
 
 nav {
-    max-width: 500px; /* Ensures nav is the same width as text */
+    max-width: 600px; /* Ensures nav is the same width as text */
     display: flex;
     justify-content: space-between;
     align-items: center; /* Center items vertically */
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .nav-tab a {
@@ -43,29 +43,24 @@ body {
     color: black;
     background-color: white;
 }
+
 header {
-    max-width: 500px;
-    margin: 40px auto;
-    padding: 20px;
-    text-align: left;
-    background-color: #f8f9fa;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     font-family: 'Inter', sans-serif;
-    font-size: 1.2rem;
-    font-weight: bold;
-    color: #333;
+    text-align: left;
+    color: black;
+    margin-top: 40px;
+    background-color: white;
     line-height: 1.6;
+    font-weight: bold; /* Makes header text bold */
 }
 
 main {
-    max-width: 500px;
-    margin: 40px auto;
+    max-width: 600px;
     line-height: 1.6;
 }
 
 footer {
-    max-width: 500px; /* Align with text box */
+    max-width: 600px; /* Align with text box */
     margin: 40px auto; /* Center it */
     display: flex;
     justify-content: flex-start; /* Align icons to the left */
