@@ -4,14 +4,6 @@
     padding: 20px;
 }
 
-body {
-    font-family: 'Inter', sans-serif;
-    text-align: left;
-    margin: 40px;
-    color: black;
-    background-color: white;
-}
-
 nav {
     max-width: 500px; /* Ensures nav is the same width as text */
     display: flex;
@@ -43,6 +35,27 @@ nav {
     object-fit: cover;
     object-position: center; /* Adjust cropping */
     /* border: 3px solid black; Adds a black border */
+}
+body {
+    font-family: 'Inter', sans-serif;
+    text-align: left;
+    margin: 40px;
+    color: black;
+    background-color: white;
+}
+header {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: left;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: 'Inter', sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    line-height: 1.6;
 }
 
 main {
