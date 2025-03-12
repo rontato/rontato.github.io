@@ -1,5 +1,6 @@
 .container {
-    max-width: 60%; /* Matches main text box width */
+    /* max-width: 60%; for when i want to make it scale*/
+    max-width: 550px; /* can change */
     margin: 0 auto; /* Centers content */
     padding: 20px;
 }
@@ -86,7 +87,6 @@ main {
 }
 
 footer {
-    max-width: 600px; /* Align with text box */
     margin: 40px auto; /* Center it */
     display: flex;
     justify-content: flex-start; /* Align icons to the left */
