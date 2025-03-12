@@ -1,15 +1,26 @@
 .container {
-    max-width: 600px; /* Matches main text box width */
+    max-width: 60%; /* Matches main text box width */
     margin: 0 auto; /* Centers content */
     padding: 20px;
 }
 
-nav {
-    max-width: 600px; /* Ensures nav is the same width as text */
+/* nav {
+    max-width: 600px;
     display: flex;
     justify-content: space-between;
-    align-items: center; /* Center items vertically */
+    align-items: center; 
     font-weight: 600;
+} */
+nav {
+    position: relative; /* Keeps nav below the banner */
+    margin-top: 120px; /* Pushes the nav down so it's not hidden */
+    max-width: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    background: white; /* Ensures the nav remains visible */
+    z-index: 5; /* Keeps it below the banner */
 }
 
 .nav-tab a {
@@ -35,6 +46,22 @@ nav {
     object-fit: cover;
     object-position: center; /* Adjust cropping */
     /* border: 3px solid black; Adds a black border */
+}
+.banner {
+    position: absolute; /* Places it on top of other elements */
+    top: 0; /* Positions it at the very top */
+    left: 50%;
+    transform: translateX(-50%); /* Centers the banner horizontally */
+    width: 100%; /* Make sure it spans the full width */
+    z-index: 10; /* Ensures the banner is above other elements */
+}
+
+.banner img {
+    width: 100%; /* Make it full width */
+    height: 130px; /* Adjust height as needed */
+    object-fit: cover;
+    opacity: 60%;
+    display: block;
 }
 body {
     font-family: 'Inter', sans-serif;
