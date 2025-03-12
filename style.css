@@ -13,8 +13,7 @@
 } */
 nav {
     position: relative; /* Keeps nav below the banner */
-    margin-top: 120px; /* Pushes the nav down so it's not hidden */
-    max-width: 600px;
+    margin-top: 10vh; /* Pushes the nav down so it's not hidden */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -58,7 +57,7 @@ nav {
 
 .banner img {
     width: 100%; /* Make it full width */
-    height: 130px; /* Adjust height as needed */
+    height: 12vh; /* Adjust height as needed */
     object-fit: cover;
     opacity: 60%;
     display: block;
